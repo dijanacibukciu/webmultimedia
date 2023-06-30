@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    /* background-color: rgb(209, 244, 245); */
+    background-image: url('../Fotot/foto9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    box-shadow: 5px 10px 40px rgb(49, 204, 178);
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 50%;
+    font-size: 17px;
+}
+.right{
+    flex: 50%;
+    font-size: 17px;
+}
+.down{
+    font-size: 17px;
+}
+h1{
+    background-color: rgb(49, 204, 178);
+    color: white;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 55px;
+}
+.email{
+    margin-left: 60px;    
+}
+.emailInput{
+    margin-left: 60px; 
+    margin-bottom: 10px;
+    width: 370px;
+    font-family:inherit;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px #e4e2e2;
+}
+.password{
+    margin-left: 60px;    
+}
+.passwordInput{
+    margin-left: 60px; 
+    margin-bottom: 10px;
+    width: 370px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px #e4e2e2;
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 350px;
+    background-color: lightblue;
+    width: 80px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 5px;
+}
+.firstName{
+    margin-left: 60px;
+}
+.fname{
+    margin-left: 60px;   
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px #e4e2e2;
+}
+/* .lastName{
+    margin-left: 60px;
+} */
+.lname{
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px #e4e2e2;
+}
+.mosha{
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px #e4e2e2;
+}
+.gender{
+    margin-left: 60px;
+}
+.gjinia{
+    margin-left: 60px;
+}
+#terms{
+    margin-left: 60px;
+}
+.terms{
+    font-size: 12px;
+}
+label{
+    color: grey;
+}
