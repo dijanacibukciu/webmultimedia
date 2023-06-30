@@ -1,0 +1,80 @@
+body{
+    background-image: url('../Fotot/foto4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.row{
+    width: 1200px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 65%;
+    background-image: url('../Fotot/feather1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.helloWorld{
+    font-size: 150px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.paragrafi2{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.paragrafi3{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.icons{
+    margin-left: 20px;
+}
+.side{
+    background-color: white;
+    flex: 35%;
+}
+.login{
+    font-size: 80px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.paragrafi1{
+    margin-top: 80px;
+    margin-left: 20px;
+    color: grey;
+    margin-bottom: 30px;
+}
+label{
+    margin-left: 20px;
+    color: grey;
+    margin-bottom: 10px;
+}
+input{
+    margin-left: 20px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 350px;
+}
+/* .loginButton{
+    background-color: lightblue;
+    width: 80px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 290px;
+} */
+
+.loginButton{
+    margin-top: 50px;
+}
